@@ -1,0 +1,8 @@
+/* styles.css or your custom stylesheet */
+.alert-success {
+    background-color: #dff0d8;
+    border: 1px solid #d0e9c6;
+    color: #3c763d;
+    padding: 15px;
+    margin-bottom: 20px;
+}

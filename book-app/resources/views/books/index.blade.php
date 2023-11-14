@@ -1,8 +1,17 @@
+
 @extends('layouts.app')
 
 @section('content')
 <div class="container">
-    <a href="{{route('books.create')}}">Add New Book </a>
+@if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+@endif
+
+
+    <a href="{{route('books.create')}}">Add Newer Book </a>
+
     <h1>List of Books</h1>
 
     <table class="table" border="1">
